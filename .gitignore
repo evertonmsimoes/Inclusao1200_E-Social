@@ -1,0 +1,19 @@
+# Arquivos compilados Python
+*.pyc
+*.spec
+
+# Diretório de ambiente virtual
+env/
+Chrome_Padrao/
+dist/
+build/
+.vscode/
+
+#Arquivos
+ClicarEmExecutarRead.png
+ClicarBotaoAssinarRead.png
+caixaLoginGovRead.png
+AbrirAssinadorJavaRead.png
+
+# Arquivo de configuração sensível
+config.ini
