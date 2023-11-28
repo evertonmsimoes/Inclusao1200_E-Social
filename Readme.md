@@ -22,7 +22,7 @@ Por mais que acredtie que não será em todos os casos que o mesmo vai se enquad
 1. Clonar o repositório
 Clone este repositório em seu ambiente local usando o seguinte comando no terminal:
 
-    git clone https://github.com/evertonmsimoes/Inclusao1200_E-Social.git
+        git clone https://github.com/evertonmsimoes/Inclusao1200_E-Social.git
 
 2. Configurar o ambiente
 Certifique-se de ter o Python instalado. Se ainda não tiver, você pode baixá-lo em Python.org.
@@ -68,7 +68,7 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
 2. Preparar a Planilha que se encontra dentro da Raiz do projeto:
     O script irá inserir na interface web do eSocial exatamente o que estiver registrado na planilha. Em outras palavras, se algum dado estiver preenchido de maneira incorreta na planilha, o script o inserirá na interface web da mesma forma que foi registrado. Abaixo, segue o layout padrão de entrada de dados:
 
-        ![Alt text](imagens/image.png)
+       ![Alt text](imagens/image.png)
 
     •	CPF: Deve ser inserido sem o uso de caracteres especiais.
     •	Tipo de pagamento: Refencia ao campo de tipo de Ppagamento na plataforma.
@@ -78,8 +78,8 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
     •	Valor: Em relação ao campo de valor, de acordo com os testes realizados, não há problema se o número estiver com ponto ou vírgula. No entanto, é fundamental que o número contenha todas as casas decimais preenchidas. Por exemplo, se a informação estiver como "192,9", ela deve ser alterada para "192,90". Caso contrário, o script preencherá a interface web do eSocial com "19,29".
 
     Os campos seguem o mesmo modelo da plataforma:
-    
-        ![Alt text](imagens/painelEsocial.png)
+
+       ![Alt text](imagens/painelEsocial.png)
 
 
 
