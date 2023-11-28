@@ -82,7 +82,7 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
        ![Alt text](imagens/painelEsocial.png)
 
 
-
+OI 
 É importante que esses campos estejam no formato de texto e não contenham caracteres especiais.
 
 ## Considerações Finais
