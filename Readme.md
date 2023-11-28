@@ -71,10 +71,15 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
      ![Alt text](imagens/image.png)
 
     •	CPF: Deve ser inserido sem o uso de caracteres especiais.
+
     •	Tipo de pagamento: Refencia ao campo de tipo de Ppagamento na plataforma.
+
     •	Data do Pagamento: Normalmente, esses dados estão no formato de data do Excel. Antes de converter para formato de texto, é necessário remover as barras ou qualquer outro tipo de caractere especial (por exemplo: /, ;, |, , etc.) e garantir que a data esteja no formato de dia, mês e ano.
-    •	Competência de Pagamento: Devemos remover caracteres especiais e garantir que os dados estejam no formato de mês e ano
+
+    •	Competência de Pagamento: Devemos remover caracteres especiais e garantir que os dados estejam no formato de mês e ano.
+
     •	I ID do Demonstrativo: É crucial ter atenção ao inserir informações nesse campo. Se houver zeros à esquerda e o campo não estiver em formato de texto, eles serão desconsiderados. Com base nos testes, qualquer formato que não seja texto resultará em erro ao tentar assinar a retificação.
+    
     •	Valor: Em relação ao campo de valor, de acordo com os testes realizados, não há problema se o número estiver com ponto ou vírgula. No entanto, é fundamental que o número contenha todas as casas decimais preenchidas. Por exemplo, se a informação estiver como "192,9", ela deve ser alterada para "192,90". Caso contrário, o script preencherá a interface web do eSocial com "19,29".
 
     Os campos seguem o mesmo modelo da plataforma:
