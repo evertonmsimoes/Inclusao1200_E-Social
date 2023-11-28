@@ -18,7 +18,7 @@ Recebi solicitação para criar versões destinadas a três tipos diferentes de 
 
 ## Instalação
 
-Por mais que acredtie que não será em todos os casos que o mesmo vai se enquadrar, segue as intruções para instalação do mesmo:
+Embora eu acredite que este script pode não ser aplicável em todos os cenários, aqui estão as instruções para sua instalação:
 1. Clonar o repositório
 Clone este repositório em seu ambiente local usando o seguinte comando no terminal:
 
