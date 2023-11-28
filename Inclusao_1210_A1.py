@@ -189,7 +189,7 @@ if __name__ == "__main__":
             row['html2'] = instancia_extracao.extrair_texto_html(row['html'])
             instancia_dados.GravLog(row['CPF'], row['html2'])
 
-         # Relogin de 13 em 13 Execuções
+         # Relogin de 14 em 14 Execuções
         if cont == 13:
             realizar_relogin(Browser)
             #Começo da Interação com o Navegador
