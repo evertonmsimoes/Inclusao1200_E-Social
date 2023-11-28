@@ -1,13 +1,13 @@
-## E-Social Inclusão 1210 
+# E-Social Inclusão 1210 
 
-# Introdução 
+## Introdução 
 
 Seja bem-vindo ao repositório dedicado à automação do sistema de gestão de folhas de pagamento e à inserção de informações no Sistema do E-Social. Este script é parte integrante de uma série de ferramentas desenvolvidas para automatizar processos na plataforma do E-Social.
 Embora a ideia inicial envolvesse a possível integração com o Framework do BotCity para potencializar a automação, essa estratégia não avançou conforme planejado devido a orientações do solicitante. No entanto, este script foi desenvolvido independentemente, mantendo seu propósito central de oferecer uma solução eficaz para a inserção de informações no Sistema do E-Social.
 A proposta inicial era desenvolver um conector utilizando a API SOUP do sistema, porém, infelizmente o projeto não foi para frente.
 A intenção de disponibilizar este projeto é mostrar um pouco do meu trabalho. Mesmo que o que tenha sido desenvolvido seja algo simples e mesmo que eu acredite que não tenha utilizado as melhores ferramentas disponíveis, foi possível criar algo útil que atendeu às necessidades dos solicitantes.
 
-# Visão Geral
+## Visão Geral
 
 Os scripts que desenvolvi para essas automações atendem a situações bastante específicas e podem não ser aplicáveis em todos os casos.
 O script é bastante simples, sendo praticamente 99% desenvolvido em Python, com algumas funções em JavaScript para interagir com elementos específicos das páginas. Em sua essência, utilizamos o Selenium para interagir com os elementos do navegador e o OpenCV para lidar com as janelas do Java.
@@ -16,7 +16,7 @@ Recebi solicitação para criar versões destinadas a três tipos diferentes de 
     *   Certificados A3 para Pessoa Física com procuração para as empresas;
     *   Certificados A3 para Pessoa Jurídica (PJ).
 
-# Instalação
+## Instalação
 
 Por mais que acredtie que não será em todos os casos que o mesmo vai se enquadrar, segue as intruções para instalação do mesmo:
 1. Clonar o repositório
@@ -32,7 +32,7 @@ Navegue até o diretório do projeto e instale as dependências necessárias usa
     pip install -r requirements.txt
 
 
-# Uso
+## Uso
 
 O funcionamento do script é simples: ao executá-lo, será solicitada a inserção de algumas informações. Estas variam de acordo com o tipo de script e incluem o ano e mês, nessa ordem, escritos sem a utilização de caracteres especiais, como por exemplo: '/', '|', '-'.
 Além disso, será requisitada a senha para certificados do tipo A3 e o CNPJ para certificados do tipo A3 PF.
@@ -42,23 +42,23 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
 
     - 'caixaLoginGov.png': Refere-se à primeira caixa de login para digitar a senha do Certificado na plataforma do Governo (.Gov). Para certificados do Tipo A1, essa imagem não necessita de configuração.
 
-    ![Alt text](caixaLoginGov.png)
+    ![Alt text](caixaLoginGovRead.png)
 
     - 'AbrirAssinadorJava.png': Imagem utilizada para abrir o assinador Java.
 
-    ![Alt text](AbrirAssinadorJava.png)
+    ![Alt text](AbrirAssinadorJavaRead.png)
 
     - 'ClicarEmExecutar.png': Imagem para clicar na Caixa do Java e depois pressionar Enter para executar o assinador.
 
-    ![Alt text](ClicarEmExecutar.png)
+    ![Alt text](ClicarEmExecutarRead.png)
 
     - 'ClicarBotaoAssinar.png': Imagem usada para clicar no botão 'Assinar' dentro da caixa do Java. Para os certificados do Tipo, podemos desconsiderar esta imagem também.
 
-    ![Alt text](ClicarBotaoAssinar.png)
+    ![Alt text](ClicarBotaoAssinarRead.png)
 
     - 'ClicarCaixaDeSennha.png': Imagem usada para clicar na caixa de senha do assinador Java.
 
-    ![Alt text](ClicarCaixaDeSennha.png)
+    ![Alt text](ClicarCaixaDeSennhaRead.png)
     
     - 'ClicarBotaoOk.png': Clica no botão 'Ok' para finalizar a tarefa.
 
@@ -80,15 +80,7 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
 
 É importante que esses campos estejam no formato de texto e não contenham caracteres especiais.
 
-# Considerações Finais
+## Considerações Finais
+Vale ressaltar que o script foi desenvolvido com base no XPath dos campos do E-Social. Portanto, esses scripts são susceptíveis a quebras. Uma alteração que recomendo é substituir o método da classe browser clicarElemento pelo método clicarElementoID. Este último, em vez de utilizar o XPath, utiliza o ID para clicar nos campos do navegador, demonstrando menor volatilidade com base nas observações dos últimos meses.
+Como mencionado anteriormente, este projeto foi uma forma de demonstrar meu trabalho conforme solicitado. Apesar da aparente simplicidade, considero-o um projeto importante para mim, pois foi a primeira vez em que pude aplicar meu conhecimento em uma situação real.
 
-Vale resaltar que o Script foi desenvolvido com base no XPath dos campos do E-Social, por tanto esses Scripts são muito faceis de quebrar. Uma altração que recomendo é subistituir o metodo da Classe browser clicarElemento, pelo metodo clicarElementoID que em vez de utilizar o XPath, vai utilizar o ID para clicar nos campos do navegador, que de acordo com o que acompanhei nos ultimos messes tem uma volatividade menor.
-Bom como havia mencionado acima, isso tudo foi só para mostrar um pouco do meu trabalho de acordo com o que me foi solicitado, por mais simples que seja acredito que tenha sido um projeto que importante para mim porque pela primeira vez de fato pude aplicar o meu conhecimento em uma situação real.
-Se tiverem qualquer duvida relacionadas aos projetos, focarei feliz em reponder você pode entrar em contato comigo pelo LinkDin:
-
-https://www.linkedin.com/in/everton-simões-291393171/
-
-Muito obrigado pelo seu tempo! 
-é qualquerduvida estou a diposição.
-Att
-Everton M Simões
