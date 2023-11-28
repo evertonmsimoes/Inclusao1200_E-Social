@@ -42,33 +42,33 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
 
     - 'caixaLoginGov.png': Refere-se à primeira caixa de login para digitar a senha do Certificado na plataforma do Governo (.Gov). Para certificados do Tipo A1, essa imagem não necessita de configuração.
 
-    ![Alt text](imagens\caixaLoginGov.png)
+    ![Alt text](imagens/caixaLoginGov.png)
 
     - 'AbrirAssinadorJava.png': Imagem utilizada para abrir o assinador Java.
 
-    ![Alt text](imagens\AbrirAssinadorJava.png)
+    ![Alt text](imagens/AbrirAssinadorJava.png)
 
     - 'ClicarEmExecutar.png': Imagem para clicar na Caixa do Java e depois pressionar Enter para executar o assinador.
 
-    ![Alt text](imagens\ClicarEmExecutarRead.png)
+    ![Alt text](imagens/ClicarEmExecutarRead.png)
 
     - 'ClicarBotaoAssinar.png': Imagem usada para clicar no botão 'Assinar' dentro da caixa do Java. Para os certificados do Tipo, podemos desconsiderar esta imagem também.
 
-    ![Alt text](imagens\ClicarBotaoAssinar.png)
+    ![Alt text](imagens/ClicarBotaoAssinar.png)
 
     - 'ClicarCaixaDeSennha.png': Imagem usada para clicar na caixa de senha do assinador Java.
 
-    ![Alt text](imagens\ClicarCaixaDeSennha.png)
+    ![Alt text](imagens/ClicarCaixaDeSennha.png)
     
     - 'ClicarBotaoOk.png': Clica no botão 'Ok' para finalizar a tarefa.
 
-    ![Alt text](imagens\ClicarBotaoOk.png)
+    ![Alt text](imagens/ClicarBotaoOk.png)
 
 
 2. Preparar a Planilha que se encontra dentro da Raiz do projeto:
     O script irá inserir na interface web do eSocial exatamente o que estiver registrado na planilha. Em outras palavras, se algum dado estiver preenchido de maneira incorreta na planilha, o script o inserirá na interface web da mesma forma que foi registrado. Abaixo, segue o layout padrão de entrada de dados:
 
-    ![Alt text](imagens\image.png)
+    ![Alt text](imagens/image.png)
 
     •	CPF: Deve ser inserido sem o uso de caracteres especiais.
     •	Tipo de pagamento: Refencia ao campo de tipo de Ppagamento na plataforma.
