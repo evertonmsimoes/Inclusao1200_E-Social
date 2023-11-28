@@ -1,6 +1,7 @@
 # Arquivos compilados Python
 *.pyc
 *.spec
+.gitignore
 
 # Diretório de ambiente virtual
 env/
