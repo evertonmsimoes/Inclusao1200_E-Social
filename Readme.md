@@ -42,27 +42,27 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
 
     - 'caixaLoginGov.png': Refere-se à primeira caixa de login para digitar a senha do Certificado na plataforma do Governo (.Gov). Para certificados do Tipo A1, essa imagem não necessita de configuração.
 
-    ![Alt text](imagens/caixaLoginGov.png)
+       ![Alt text](imagens/caixaLoginGov.png)
 
     - 'AbrirAssinadorJava.png': Imagem utilizada para abrir o assinador Java.
 
-    ![Alt text](imagens/AbrirAssinadorJava.png)
+       ![Alt text](imagens/AbrirAssinadorJava.png)
 
     - 'ClicarEmExecutar.png': Imagem para clicar na Caixa do Java e depois pressionar Enter para executar o assinador.
 
-    ![Alt text](imagens/ClicarEmExecutar.png)
+       ![Alt text](imagens/ClicarEmExecutar.png)
 
     - 'ClicarBotaoAssinar.png': Imagem usada para clicar no botão 'Assinar' dentro da caixa do Java. Para os certificados do Tipo, podemos desconsiderar esta imagem também.
 
-    ![Alt text](imagens/ClicarBotaoAssinar.png)
+       ![Alt text](imagens/ClicarBotaoAssinar.png)
 
     - 'ClicarCaixaDeSennha.png': Imagem usada para clicar na caixa de senha do assinador Java.
 
-    ![Alt text](imagens/ClicarCaixaDeSennha.png)
+       ![Alt text](imagens/ClicarCaixaDeSennha.png)
     
     - 'ClicarBotaoOk.png': Clica no botão 'Ok' para finalizar a tarefa.
 
-    ![Alt text](imagens/ClicarBotaoOk.png)
+       ![Alt text](imagens/ClicarBotaoOk.png)
 
 
 2. Preparar a Planilha que se encontra dentro da Raiz do projeto:

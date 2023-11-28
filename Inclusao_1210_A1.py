@@ -62,7 +62,7 @@ def incluirInformacoes(cpf, dtPgto, ideDmDev, vrLiq, perApur, tppag):
     
     navegador_instancia.esperarPaginaCarregar()
     clicar_elemento_ID("btn-incluir-pagto")
-    sleep(0.6)
+    sleep(100000.6)
     
     # Usando a variável 'tppag' na string JavaScript
     script_js = f"""
