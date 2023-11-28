@@ -220,7 +220,7 @@ if __name__ == "__main__":
    
 
         
-        # Relogin de 13 em 13 Execuções
+        # Relogin de 14 em 14 Execuções
         if cont == 13:
             realizar_relogin(Browser)
             #Começo da Interação com o Navegador
