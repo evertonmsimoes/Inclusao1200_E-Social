@@ -50,7 +50,7 @@ Para utilizá-lo, é necessário realizar a configuração da pasta de imagens, 
 
     - 'ClicarEmExecutar.png': Imagem para clicar na Caixa do Java e depois pressionar Enter para executar o assinador.
 
-    ![Alt text](imagens/ClicarEmExecutarRead.png)
+    ![Alt text](imagens/ClicarEmExecutar.png)
 
     - 'ClicarBotaoAssinar.png': Imagem usada para clicar no botão 'Assinar' dentro da caixa do Java. Para os certificados do Tipo, podemos desconsiderar esta imagem também.
 
