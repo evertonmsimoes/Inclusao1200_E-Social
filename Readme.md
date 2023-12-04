@@ -4,7 +4,7 @@
 
 Seja bem-vindo ao repositório dedicado à automação do sistema de gestão de folhas de pagamento e à inserção de informações no Sistema do E-Social. Este script é parte integrante de uma série de ferramentas desenvolvidas para automatizar processos na plataforma do E-Social.
 Embora a ideia inicial envolvesse a possível integração com o Framework do BotCity para potencializar a automação, essa estratégia não avançou conforme planejado devido a orientações do solicitante. No entanto, este script foi desenvolvido independentemente, mantendo seu propósito central de oferecer uma solução eficaz para a inserção de informações no Sistema do E-Social.
-A proposta inicial era desenvolver um conector utilizando a API SOUP do sistema, porém, infelizmente o projeto não foi para frente.
+A proposta inicial era desenvolver um conector utilizando o serviço Web Service(SOUP) do sistema, porém, infelizmente o projeto não foi para frente.
 A intenção de disponibilizar este projeto é mostrar um pouco do meu trabalho. Mesmo que o que tenha sido desenvolvido seja algo simples e mesmo que eu acredite que não tenha utilizado as melhores ferramentas disponíveis, foi possível criar algo útil que atendeu às necessidades dos solicitantes.
 
 ## Visão Geral
