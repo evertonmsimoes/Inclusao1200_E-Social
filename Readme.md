@@ -22,7 +22,7 @@ Embora eu acredite que este script pode não ser aplicável em todos os cenário
 1. Clonar o repositório
 Clone este repositório em seu ambiente local usando o seguinte comando no terminal:
 
-        git clone https://github.com/evertonmsimoes/Inclusao1200_E-Social.git
+        git clone https://github.com/evertonmsimoes/Inclusao1210_E-Social.git
 
 2. Configurar o ambiente
 Certifique-se de ter o Python instalado. Se ainda não tiver, você pode baixá-lo em Python.org.
